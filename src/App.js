@@ -1,9 +1,13 @@
 import React, { Component } from "react";
-import landingpage from "./Components/ComponentBrowser/landingpage";
+import Landingpage from "./Components/ComponentBrowser/Landingpage";
 
 class App extends Component {
   render() {
-    return <landingpage />;
+    return (
+      <div>
+        <Landingpage />
+      </div>
+    );
   }
 }
 

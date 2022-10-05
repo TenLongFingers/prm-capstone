@@ -1,13 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 
 //landing page components
-import signInBox from "..comp/landingpage/signInBox";
+import SignInBox from "./landingpage/SignInBox";
 
-export default class ComponentBrowser extends Component {
-  render() {
-    return;
-    <div className="signInContainer">
-      <signInBox />
-    </div>;
-  }
+function Landingpage() {
+  return;
+  <div className="SignInContainer">
+    <SignInBox />
+  </div>;
 }
+export default Landingpage;
